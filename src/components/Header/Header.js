@@ -1,7 +1,6 @@
 import React from 'react'
 
-import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import avatar from '../../assets/images/avatar.jpg'
 
 const Header = () => (
   <header id="header">
@@ -12,9 +11,7 @@ const Header = () => (
       <h1>
         <strong>Hi,I'm Ricki</strong>
       </h1>
-      
     </div>
-    <Footer />
   </header>
 )
 
