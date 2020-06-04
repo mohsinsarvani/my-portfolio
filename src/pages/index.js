@@ -5,7 +5,7 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
+  const siteTitle = 'My Portfolio- Ricki'
   const siteDescription = 'Site description'
 
   return (
@@ -19,9 +19,8 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
+              I'm a certified SysAdmin & Junior software developer,
+              passionate about technology & cyber security.
             </h2>
           </header>
           <p>

@@ -14,11 +14,7 @@ const Footer = () => (
             <span className="label">Github</span>
           </a>
         </li>
-        <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
+        
         <li>
           <a href="#" className="icon fa-envelope-o">
             <span className="label">Email</span>
@@ -26,7 +22,7 @@ const Footer = () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
+        <li>&copy; Ricardo Vargas</li>
       </ul>
     </div>
   </div>
