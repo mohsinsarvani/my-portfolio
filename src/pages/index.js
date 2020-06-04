@@ -1,7 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
-import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
@@ -19,11 +17,7 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-            While(true){
-                Eat();
-                Sleep();
-                Code();
-              }
+         
             </h2>
           </header>
           <p>
@@ -45,8 +39,6 @@ const HomeIndex = () => {
 
         <section id="two">
           <h2>Recent Work</h2>
-
-          <Gallery />
 
           <ul className="actions">
             <li>

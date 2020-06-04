@@ -12,6 +12,7 @@ const Header = () => (
       <h1>
         <strong>Hi,I'm Ricki</strong>
       </h1>
+      
     </div>
     <Footer />
   </header>
