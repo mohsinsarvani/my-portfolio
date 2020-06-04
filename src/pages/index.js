@@ -19,17 +19,20 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              I'm a certified SysAdmin & Junior software developer,
-              passionate about technology & cyber security.
+            While(true){
+                Eat();
+                Sleep();
+                Code();
+              }
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            <strong>
+          Just in case you don't understand, don't worry
+          I will explain, I build software basically I give a series of instructions
+          to a machine to perform a task such as you may be seeing this message on the screen
+          cool don't you think soo? :)
+          </strong>
           </p>
           <ul className="actions">
             <li>
