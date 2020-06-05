@@ -10,7 +10,7 @@ import Button from '@material-ui/core/Button'
 const Contact = () => {
 
     return (
-        <section>
+        <section className="row uniform 50%">
 
             <form noValidate autoComplete="off">
                 <Tooltip title="Name" arrow>
