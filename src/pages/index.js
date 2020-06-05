@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import LayoutWrapper from '../components/LayoutWrapper/LayoutWrapper'
 
+
 const HomeIndex = () => {
   const siteTitle = 'My Portfolio- Ricki'
   const siteDescription = 'Site description'
@@ -29,11 +30,7 @@ const HomeIndex = () => {
           </strong>
             </p>
             <ul className="actions">
-              <li>
-                <a href="#" className="button">
-                  Learn More
-              </a>
-              </li>
+              
             </ul>
           </section>
 
@@ -59,7 +56,7 @@ const HomeIndex = () => {
           </section>
         </div>
       </LayoutWrapper  >
-    </div>
+    </div >
   )
 }
 
