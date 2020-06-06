@@ -4,6 +4,7 @@ import LayoutWrapper from "../components/LayoutWrapper/LayoutWrapper";
 import Me from "../components/Me/Me";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
+import Header from '../components/Header/Header'
 
 
 const index = props => {
@@ -11,19 +12,9 @@ const index = props => {
 
     <div>
       <LayoutWrapper >
-        <Helmet>
-          <title>Titulo</title>
-          <meta name="description" />
-        </Helmet>
-        <section>
-          <Me />
-        </section>
-        <section>
-          <Projects />
-        </section>
-        <section>
-          <Contact />
-        </section>
+        <div style={{ color: "green" }} >MEEEEEEEEEE</div>
+        <div style={{ color: "red" }}>PROYECTTTTTT</div>
+        <div style={{ color: "blue" }}>ONTACTTTTTTTTTTTTTTTT</div>
       </LayoutWrapper>
     </div>
   )

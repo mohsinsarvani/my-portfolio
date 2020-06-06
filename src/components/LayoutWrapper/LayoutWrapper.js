@@ -1,8 +1,11 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
+import '../../assets/scss/main.scss'
 
-const LayoutWrapper  = ({ children }) => (
+
+
+const LayoutWrapper = ({ children }) => (
     <div>
         <Header />
         {children}
