@@ -4,11 +4,11 @@ import avatar from '../../assets/images/avatar.jpg'
 
 const Header = () => (
   <header id="header">
-    <div className="inner">
+    <div>
       <a href="#">
-      <img src={avatar} alt="" />
+      <img src={avatar} alt=""  className="avatar"/>
       </a>
-      <strong>I am Strata</strong>, a super simple
+      <h3>Hey There,I'm Ricki :)</h3>
     </div>
   </header>
 )
