@@ -19,6 +19,11 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+      data: `@import "${__dirname}/src/assets/scss/main.scss";`,
+    },
     'gatsby-plugin-offline',
   ],
 }
