@@ -12,9 +12,7 @@ const index = props => {
 
     <div>
       <LayoutWrapper >
-        <div style={{ color: "green" }} >MEEEEEEEEEE</div>
-        <div style={{ color: "red" }}>PROYECTTTTTT</div>
-        <div style={{ color: "blue" }}>ONTACTTTTTTTTTTTTTTTT</div>
+
       </LayoutWrapper>
     </div>
   )
