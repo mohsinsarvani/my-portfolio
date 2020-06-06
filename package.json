@@ -12,6 +12,7 @@
     "gatsby-plugin-manifest": "^2.4.9",
     "gatsby-plugin-offline": "^3.2.7",
     "gatsby-plugin-react-helmet": "^3.3.2",
+    "gatsby-plugin-sass": "^2.3.3",
     "gatsby-plugin-sharp": "^2.6.9",
     "gatsby-source-filesystem": "^2.3.10",
     "gatsby-transformer-sharp": "^2.5.3",
@@ -19,10 +20,14 @@
     "react": "^16.12.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "skeleton": "^0.1.2"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "node-sass": "^4.14.1",
+    "prettier": "2.0.5",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0"
   },
   "keywords": [
     "gatsby"
