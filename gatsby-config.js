@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sass',
       options: {
-        data: `@import "${__dirname}/src/assets/scss/main.scss";`,
-      },
-    }
-  ]
+      data: `src/assets/scss/main.scss`
+      }
+    },
+  ],
 }

@@ -1,0 +1,35 @@
+.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+.icons li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+.icons li:last-child {
+  padding-right: 0;
+}
+ul li {
+  padding-left: 0.5em;
+}
+
+ul {
+  list-style: disc;
+  margin: 0 0 _size(element-margin) 0;
+  padding-left: 1em;
+}
+li a {
+  line-height: 1.75em;
+  margin: 1.5em 0 0 0;
+  padding-left: 2.25em;
+  position: relative;
+}
+.label {
+  color: _palette(fg-bold);
+  display: block;
+  font-size: 0.9em;
+  font-weight: _font(weight-bold);
+  margin: 0 0 (_size(element-margin) * 0.5) 0;
+}
