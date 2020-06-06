@@ -1,4 +1,5 @@
 import React from 'react'
+import './SocialMedia.css'
 
 const SocialMedia = () => {
 
@@ -38,14 +39,14 @@ const SocialMedia = () => {
                     </a>
                 </li>
             </ul>
-            <div className="labeled-icons">
-                <span>{name}</span>
-                <span className="icon fa-home" >{address}</span>
-                <span className="icon fa-mobile">{phone}</span>
-                <span className="icon fa-envelope-o">{email}</span>
-                <span className="copyright"> © All rights are reserved | {new Date().getFullYear()} |</span>
-                <span aria-label="love" role="img"> </span>
-            </div>
+            <ul className="labeled-icons">
+                <li>{name}</li>
+                <li className="icon fa-home" >{address}</li>
+                <li className="icon fa-mobile">{phone}</li>
+                <li className="icon fa-envelope-o">{email}</li>
+                <li className="copyright"> © All rights are reserved | {new Date().getFullYear()} |</li>
+                <li aria-label="love" role="img"> </li>
+            </ul>
         </div>
     )
 }

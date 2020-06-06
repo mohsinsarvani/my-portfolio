@@ -6,9 +6,8 @@ import Button from '@material-ui/core/Button'
 const Me = () => {
     return (
         <div className="main">
-            <section className="major" >
-                <h1>Hi Im Rnnnnncki!</h1>
-
+            <section >
+            
                 <p>
                     <strong>
                         Just in case you don't understand, don't worry
