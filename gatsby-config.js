@@ -18,12 +18,11 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-sass',
       options: {
-      data: `@import "${__dirname}/src/assets/scss/main.scss";`,
-    },
-    'gatsby-plugin-offline',
-  ],
+        data: `@import "${__dirname}/src/assets/scss/main.scss";`,
+      },
+    }
+  ]
 }
