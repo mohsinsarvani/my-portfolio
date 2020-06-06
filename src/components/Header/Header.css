@@ -8,6 +8,7 @@
   position: fixed;
   text-align: right;
   width: 20%;
+ 
 }
 
 #header .avatar {
@@ -15,8 +16,9 @@
   width: 50%;
   border-radius: 100%;
   opacity: 0.5;
-  border: solid 3px rgba(200, 255, 255, 0.5);
+  border: solid 3px rgba(0, 0, 0, 0.5);
   margin-bottom: 0%;
+  
 }
 
 #header h3 {
@@ -24,4 +26,5 @@
     color: rgb(255, 255, 255);
     font-size: 45px;
     padding-top: 0%;
+    line-height:38px;
 }

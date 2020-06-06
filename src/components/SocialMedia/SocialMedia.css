@@ -1,0 +1,30 @@
+#media {
+  color: _palette(accent2, fg-light);
+  font-size: 0.8em;
+  list-style: none;
+  margin-top: 110%;
+  padding: 0;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-right: 20%;
+}
+
+#media li {
+  border-left: solid 1px _palette(accent2, border);
+  display: inline-block;
+  line-height: 1em;
+  margin-left: 0.75em;
+  padding-left: 0.75em;
+  position: relative;
+}
+
+#media a {
+  color: inherit;
+}
+
+#media .label {
+  display: block;
+  font-size: 0.9em;
+  font-weight: _font(weight-bold);
+  margin: 0;
+}

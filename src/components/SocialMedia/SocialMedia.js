@@ -1,4 +1,5 @@
 import React from 'react'
+import './SocialMedia.css'
 
 const SocialMedia = () => {
 
@@ -9,7 +10,7 @@ const SocialMedia = () => {
     const name = "Ricardo Vargas";
 
     return (
-        <div className="icons">
+        <div id="media">
             <ul>
                 <li>
                     <a href="https://twitter.com/ricki_me" className="icon fa-twitter">
