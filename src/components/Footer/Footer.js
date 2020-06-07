@@ -13,14 +13,9 @@ const Footer = () => {
     return (
         <footer id="footer">
             <div>
-                <SocialMedia></SocialMedia>
+                <p>FOOOOOOOOOOOOOTER</p>
             </div>
-            <div className="personal">
-               {/*  <span>{address}|</span>
-                <span>{country}|</span>
-                <span>{phone}|</span>
-                <span>{email}|</span> */}
-            </div>
+            
         </footer>
     )
 }
