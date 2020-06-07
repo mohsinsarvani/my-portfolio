@@ -19,11 +19,22 @@
     font-size: 30px;
     text-align: left;
     margin-right: 40px;
+    outline-color: rgb(233, 58, 195);
+    outline-style: outset;
 }
 
 #main .iam button{
 
-   padding-left: 40px;
-   margin-left: 20px;
+   outline-color: rgb(240, 236, 0);
+   outline-style: outset;
+   vertical-align: baseline;
+   margin-top:auto;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   padding-right: auto;
+   padding-left: auto;
+   padding-bottom: auto;
+   padding-top: auto;
 
 }

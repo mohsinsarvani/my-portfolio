@@ -17,11 +17,9 @@ const Me = () => {
                         Just in case you don't understand, don't worry
                         I will explain.
                         <br></br> 
-                        I build software basically,I give a series of instructions
-                        to a machine to perform a task such as you may be seeing this message on the screen.
-                        <br></br> 
+                        I build software,basically I give a series of instructions
+                        to a machine to perform a task such as you may be seeing this message on the screen. 
                    </strong>
-                
                 <Button  variant="outlined" color="primary" size="medium" >Hire Me</Button>
             </section >
             <Divider />
