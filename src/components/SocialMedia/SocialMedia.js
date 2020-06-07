@@ -13,13 +13,12 @@ const SocialMedia = () => {
         <div id="media">
             <ul className="icons">
 
-                <li><SocialIcon url="" network="github" bgColor="#000000" style={{ height: 25, width: 25 }} /></li>
-                <li> <SocialIcon url="http://linkedin.com/in/jaketrent" style={{ height: 25, width: 25 }} /></li>
-                <li><SocialIcon url="" network="twitter" bgColor="#49a1eb" style={{ height: 25, width: 25 }} /></li>
-
+                <li><SocialIcon url="" network="github" bgColor="#000000" style={{ height: 50, width: 50 }} /></li>
+                <li><SocialIcon url="http://linkedin.com/in/jaketrent" style={{ height: 50, width: 50 }} /></li>
+                <li><SocialIcon url="" network="twitter" bgColor="#49a1eb" style={{ height: 50, width: 50 }} /></li>
             </ul>
-
         </div>
+
     )
 }
 

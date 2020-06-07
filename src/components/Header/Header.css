@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 #header {
-  height: 100%;
+  height: auto;
   margin-left: 5%;
   margin-top: 10%;
   margin-right: 10%;
-  padding: 0%;
+  padding: auto;
   position: fixed;
-  text-align: right;
+  text-align: center;
   width: 20%;
+  outline-style: outset;
+  outline-color: blue;
  
 }
 
 #header .avatar {
-  margin: 10%;
-  width: 50%;
   border-radius: 100%;
   opacity: 0.5;
   border: solid 3px rgba(0, 0, 0, 0.5);
-  margin-bottom: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  outline-color: yellow;
+  outline-style: outset;
+  
   
 }
 
@@ -27,4 +33,7 @@
     font-size: 45px;
     padding-top: 0%;
     line-height:38px;
+    outline-style: outset;
+    text-align: center;
+    vertical-align: baseline;
 }

@@ -1,15 +1,31 @@
 #media {
   margin: 0 1rem;
   transition: transform 250ms;
-  margin-top: 60%;
-  margin-right: 50%;
-  display: inline-block;
-  margin-top: 100%;
+  margin: auto;
+  width: auto;
+  padding: 70px 0;
+  border: 3px solid rgb(255, 0, 221);
+  text-align: center;
 }
-#media li + li {
-  border: 0;
+
+#media .icons {
+  margin-right: 10%;
   display: inline-block;
-  margin-top: 30%;
-  margin-left: 30px;
-  position: relative;
+  margin-top: 40%;
+  padding-right: 20px;
+  outline-style: dotted;
+  text-align: center;
+  outline-color: rgb(255, 94, 0);
+}
+
+#media li {
+  display: inline-block;
+  margin-top: 110%;
+  padding-right: 5px;
+  outline-color: deepskyblue;
+  outline-style: outset;
+  text-align: center;
+  vertical-align: baseline;
+  
+
 }

@@ -13,6 +13,8 @@ const index = props => {
     <div>
       <LayoutWrapper >
 
+        <Me></Me>
+
       </LayoutWrapper>
     </div>
   )

@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: auto;
+    width: auto;
+    margin-left:auto ;
+    text-align: right;
+    border: 3px solid rgb(0, 13, 128);
+}
+
+#main .iam {
+    height: 200px;
+    width: 400px;
+    position: relative;
+    margin-left: 150%;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(150%,-50%);
+    font-family: 'Farsan', cursive;
+    font-size: 25px;
+    vertical-align: baseline;
+  
+}
+#main p{
+
+    font-size: 30px;
+    text-align: right;
+
+
+}
