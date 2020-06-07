@@ -5,6 +5,7 @@ import Me from "../components/Me/Me";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
 import Header from '../components/Header/Header'
+import Code from '../components/Code/Code'
 
 
 const index = props => {
@@ -13,6 +14,7 @@ const index = props => {
     <div>
       <LayoutWrapper >
 
+        <Code></Code>
         <Me></Me>
 
       </LayoutWrapper>
