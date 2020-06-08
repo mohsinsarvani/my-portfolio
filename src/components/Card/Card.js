@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 import avatar from '../../assets/images/avatar2.png'
-import Social from './../Social/Social'
+import Avatar from './../Avatar/Avatar'
 
 const Card = () => {
     return (
@@ -16,9 +16,7 @@ const Card = () => {
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco
-                              <Social />
+                              <Avatar />
                             </p>
                         </div>
                     </div>

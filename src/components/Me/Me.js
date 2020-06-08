@@ -5,7 +5,7 @@ import Card from "../Card/Card";
 const Me = () => {
     return (
         <div id="me">
-             <h3>ME</h3>
+             <h3>MEEEEEEEEEEEEEEE</h3>
             <Card />
         </div>
     )
