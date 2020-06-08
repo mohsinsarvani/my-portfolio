@@ -1,20 +1,22 @@
 #layout {
-  background-image: url("../../assets/images/overlay.png"),
-    url("../../assets/images/bg.jpg");
-  background-position: top left, top left;
-  background-repeat: repeat, no-repeat;
-  background-size: auto,auto;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  text-align: right;
-  top: 0;
-  width: 30%;
-  align-content: center;
-  outline-style: outset;
-  padding: 70px 0;
-  border: 3px solid rgb(128, 0, 0);
-  text-align: center;
-  vertical-align: baseline;
 
+  /* The image used */
+  background-image: url("../../assets/images/medium/medium.jpg");
+  /* Full height */
+  height: 50vw;
+  width: 100vw;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+}
+
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+       /* background-image: url("../../assets/images/medium.jpg"); */
+  }
 }
