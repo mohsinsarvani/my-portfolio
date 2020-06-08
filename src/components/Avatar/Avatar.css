@@ -1,148 +1,162 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(https://fonts.googleapis.com/css?family=Open + Sans:600);
 
 .rp-item {
   width: 60%;
   height: 60%;
   border-radius: 50%;
   position: relative;
-	cursor: default;
-	box-shadow: 
-    inset 0 0 0 4px rgba(16, 107, 51, 0.3),
-    inset 0 0 0 2px rgba(255,255,255,.6),
-    inset 600px 600px 0 -750px rgba(255,255,255,.2),
-    0 0 0 16px rgba(0,0,0,.7),
-    0 0 0 17px rgba(255,255,255,.8),
-    0 1px 2px rgba(0,0,0,0.1);
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	
+  cursor: default;
+  
+  border: 3px solid rgb(251, 255, 0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin: -30%;
 }
 
-.rp-img-1 { background-image: url(https://i.imgur.com/OdQRG.png) }
-
+.rp-img-1 {
+  background-image: url(https://i.imgur.com/OdQRG.png);
+  border: 3px solid rgb(13, 151, 144);
+  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  padding: 0px;
+  align-content: center;
+  font-size: 1.5 rem;
+  margin: auto;
+  border: 3px solid rgb(49, 9, 158);
+}
 
 .rp-info {
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	position: relative;
-	background: rgba(207, 66, 66, 0.8);
-	opacity: 0;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	-webkit-transform: scale();
-	-moz-transform: scale();
-	-ms-transform: scale();
-	-o-transform: scale();
-	transform: scale();
-	-webkit-backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  background: rgba(241, 0, 0, 0.8);
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: scale();
+  -moz-transform: scale();
+  -ms-transform: scale();
+  -o-transform: scale();
+  transform: scale();
+  -webkit-backface-visibility: hidden;
+  border: 3px solid rgb(255, 0, 0);
 }
 
 .rp-info h3 {
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin: 0 30px;
-	padding: 45px 0 0 0;
-	height: 140px;
-	font-family: 'Open Sans', Arial, sans-serif;
-	text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
-	margin-right: 100px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin: 0 30px;
+  padding: 70px 0 0 0;
+  height: 140px;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+  border: 3px solid rgb(0, 255, 221);
 }
-
-
 
 .rp-info p a:hover {
-	color: #fff;
-	color: rgba(255,255,255, 0.2);
+  color: rgba(0, 0, 0, 0.2);
 }
 
-.rp-item:hover { box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.1) }
+.rp-item:hover {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
+	0 1px 2px rgba(0, 0, 0, 0.1);
+	border: 3px solid rgb(85, 76, 75);
+}
 
 .rp-item:hover .rp-info {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	   -moz-transform: scale(1);
-	    -ms-transform: scale(1);
-	     -o-transform: scale(1);
-	        transform: scale(1);
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  border: 3px solid rgb(148, 21, 131);
 }
 
-.rp-item:hover .rp-info p { opacity: 1 }
-
+.rp-item:hover .rp-info p {
+  opacity: 1;
+}
 
 .container {
-	width: 100%;
-	position: relative;
+  width: 100%;
+  position: relative;
+  border: 3px solid rgb(161, 255, 84);
 }
 
-
 .container > header h1 {
-	font-size: 32px;
-	line-height: 32px;
-	margin: 0;
-	position: relative;
-	font-weight: 300;
-	color: #777;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+  font-size: 32px;
+  line-height: 32px;
+  margin: 0;
+  position: relative;
+  font-weight: 300;
+  color: #777;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
 }
 
 .container > header h2 {
-	font-size: 14px;
-	font-weight: 300;
-	margin: 0;
-	padding: 15px 0 5px 0;
-	color: #888;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  padding: 15px 0 5px 0;
+  color: #888;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
 }
 
 .support-note span {
-	color: #fff;
-	font-size: 16px;
-	display: none;
-	font-weight: bold;
-	text-align: center;
-	padding: 5px 0;
+  color: #fff;
+  font-size: 16px;
+  display: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0;
 }
 
 .no-cssanimations .support-note span.no-cssanimations,
 .no-csstransforms .support-note span.no-csstransforms,
 .no-csstransforms3d .support-note span.no-csstransforms3d,
-.no-csstransitions .support-note span.no-csstransitions { display: block }
+.no-csstransitions .support-note span.no-csstransitions {
+  display: block;
+}
 
 .rp-grid {
-	margin: 20px 0 0 0;
-	padding: 0;
-	list-style: none;
-	display: block;
-	text-align: center;
-	width: 100%;
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
 .rp-grid:after,
 .ch-item:before {
-	content: '';
-	display: table;
+  content: "";
+  display: table;
 }
 
-.rp-grid:after { clear: both }
+.rp-grid:after {
+  clear: both;
+}
 
 .rp-grid li {
-	width: 220px;
-	height: 220px;
-	display: inline-block;
-	margin: 20px;
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  margin: 20px;
 }
 
 * {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }

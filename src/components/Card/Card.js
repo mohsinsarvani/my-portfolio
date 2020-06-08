@@ -16,9 +16,19 @@ const Card = () => {
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut
-                              <Avatar />
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut
+                                sed do eiusmod tempor incididunt ut
+                                sed do eiusmod tempor incididunt ut
+                                sed do eiusmod tempor incididunt ut
+                                sed do eiusmod tempor incididunt ut
+                                <Avatar />
                             </p>
+                           
                         </div>
+
                     </div>
                 </div>
             </div>
