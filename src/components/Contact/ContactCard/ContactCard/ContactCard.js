@@ -1,5 +1,8 @@
 import React from 'react'
 import './ContactCard.css'
+import Social from "../ContactCard/ContactCard"
+import avatar from './../../../../assets/images/avatar2.png'
+
 
 const ContactCard = () => {
     return (
@@ -14,7 +17,7 @@ const ContactCard = () => {
                             <p>
                                CONTACT CARD
                             </p>
-                           
+                           {/* <Social></Social> */}
                         </div>
 
                     </div>

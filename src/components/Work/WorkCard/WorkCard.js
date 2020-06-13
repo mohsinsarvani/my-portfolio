@@ -1,5 +1,6 @@
 import React from 'react'
 import './WorkCard.css'
+import avatar from '../../../assets/images/avatar2.png'
 
 const WorkCard = () => {
     return (
@@ -8,7 +9,7 @@ const WorkCard = () => {
                 <div class="flip-card-container">
                     <div class="flip-card">
                         <div class="flip-card-front">
-                            <img src={avatar} alt="Rick" />
+                        <img src={avatar} alt="Rick" />
                         </div>
                         <div class="flip-card-back">
                             <p>

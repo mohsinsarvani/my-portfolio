@@ -1,7 +1,7 @@
 import React from 'react'
-import './Card.css'
-import avatar from '../../assets/images/avatar2.png'
-import Avatar from '../../Avatar/Avatar'
+import './MeCard.css'
+import avatar from '../../../assets/images/avatar2.png'
+import Avatar from '../Avatar/Avatar'
 
 const Card = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react"
 
-import LayoutWrapper from "../components/LayoutWrapper/LayoutWrapper"
+import LayoutWrapper from "../components/Containers/LayoutWrapper/LayoutWrapper"
 
 
 const NotFoundPage = () => (

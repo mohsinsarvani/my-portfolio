@@ -1,7 +1,7 @@
 import React from 'react'
 import './Me.css'
 import MeCard from "./MeCard/MeCard";
-import Avatar from '../Avatar/Avatar'
+
 
 const Me = () => {
     return (
