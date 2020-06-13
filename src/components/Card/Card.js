@@ -24,7 +24,7 @@ const Card = () => {
                                 sed do eiusmod tempor incididunt ut
                                 sed do eiusmod tempor incididunt ut
                                 sed do eiusmod tempor incididunt ut
-                                <Avatar />
+                                <Avatar></Avatar>
                             </p>
                            
                         </div>

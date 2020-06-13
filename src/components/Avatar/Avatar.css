@@ -1,13 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open + Sans:600);
 
 .rp-item {
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   border-radius: 50%;
   position: relative;
   cursor: default;
-  
-  border: 3px solid rgb(251, 255, 0);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -18,24 +16,18 @@
 
 .rp-img-1 {
   background-image: url(https://i.imgur.com/OdQRG.png);
-  border: 3px solid rgb(13, 151, 144);
-  align-self: center;
   margin-right: auto;
   margin-left: auto;
-  text-align: left;
   padding: 0px;
-  align-content: center;
   font-size: 1.5 rem;
   margin: auto;
-  border: 3px solid rgb(49, 9, 158);
 }
 
 .rp-info {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  position: relative;
-  background: rgba(241, 0, 0, 0.8);
+  background: #fc3434cc;
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -47,21 +39,17 @@
   -ms-transform: scale();
   -o-transform: scale();
   transform: scale();
-  -webkit-backface-visibility: hidden;
-  border: 3px solid rgb(255, 0, 0);
 }
 
 .rp-info h3 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 22px;
-  margin: 0 30px;
-  padding: 70px 0 0 0;
-  height: 140px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 30px;
+  margin: 0 50px;
+  padding: auto;
+  height: auto;
   text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
-  border: 3px solid rgb(0, 255, 221);
 }
 
 .rp-info p a:hover {
@@ -71,7 +59,6 @@
 .rp-item:hover {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
 	0 1px 2px rgba(0, 0, 0, 0.1);
-	border: 3px solid rgb(85, 76, 75);
 }
 
 .rp-item:hover .rp-info {
@@ -81,7 +68,6 @@
   -ms-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1);
-  border: 3px solid rgb(148, 21, 131);
 }
 
 .rp-item:hover .rp-info p {
@@ -91,7 +77,6 @@
 .container {
   width: 100%;
   position: relative;
-  border: 3px solid rgb(161, 255, 84);
 }
 
 .container > header h1 {
@@ -100,7 +85,6 @@
   margin: 0;
   position: relative;
   font-weight: 300;
-  color: #777;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
 }
 

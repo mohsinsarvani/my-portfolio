@@ -8,6 +8,7 @@ const Me = () => {
         <div id="me">
              <h3>MEEEEEEEEEEEEEEE</h3>
             <Card />
+           
         </div>
     )
 }

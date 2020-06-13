@@ -9,7 +9,7 @@ function Avatar() {
                 <li>
                     <div class="rp-item rp-img-1">
                         <div class="rp-info">
-                            <h3>Ricardo V</h3>
+                            <h3> I'm Ricki</h3>
                         </div>
                     </div>
                 </li>
