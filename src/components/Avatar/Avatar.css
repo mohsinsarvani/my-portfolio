@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open + Sans:600);
-
 .rp-item {
   width: 70%;
   height: 70%;
@@ -58,7 +56,7 @@
 
 .rp-item:hover {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1),
-	0 1px 2px rgba(0, 0, 0, 0.1);
+    0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .rp-item:hover .rp-info {
